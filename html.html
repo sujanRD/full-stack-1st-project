@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Greeting App</title>
+    <style>#s{background-color: rgb(187, 241, 182); border: none;
+     color: rgb(17, 6, 6);
+     border-radius: 8px;}
+     button:hover{ transform: scale(1.1);}
+     #r{background-color: rgb(246, 144, 175); border: none;
+     color: rgb(8, 7, 7);
+     border-radius: 8px;}
+     button:hover{ transform: scale(1.1);}
+
+     h1{color: rgb(203, 203, 7); padding: 50px;}
+     body{  background-image:url("/static/hacka.png"); background-size:96%; }
+    
+     label{color: rgb(204, 158, 247);}
+    
+     </style>
+</head>
+
+<body style=" margin-top:150px; "><div style="display: flex;  justify-content: right; margin-right: 150px;">
+    <div style="width:380px; height: 400px; margin:1px right: inherit;background:light rgb(63, 132, 63); border:3px dotted pink; text-align:center;  box-shadow:0 0 20px rgba(0,0,0,0,0.2);">
+    <h1>👨‍💻 Register Now</h1>
+    <form action="/greet" method="POST">
+        <label for="name">Members</label>
+        <input type="text" name="Member" placeholder="team members"><br>
+        <br>
+        <label for="name">Branch</label>
+        <input type="text" name="Branch" placeholder="Enter branch"><br>
+        <br>
+        <label for="name">Sem</label>
+        <input type="text" name="Sem" placeholder="Enter semester"><br>
+        <br>
+        <label for="name">Team</label>
+        <input type="text" name="Team" placeholder="Enter team name"><br>
+        <br>
+
+        <button id="s" type="submit">Submit</button>
+        <button id="r" type="reset">reset</button><br>
+
+    </form></div></div><br>
+
+</body>
+
+</html>
